@@ -32,7 +32,7 @@ const channels = [
   {
     icon: Mail,
     title: "Corporate Email",
-    lines: ["support@svfsoya.com", "exports@svfsoya.com"],
+    lines: ["support@svfsoya.com"],
     href: "mailto:support@svfsoya.com",
   },
   {
