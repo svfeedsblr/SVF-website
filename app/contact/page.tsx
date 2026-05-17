@@ -25,7 +25,7 @@ const channels = [
   {
     icon: Phone,
     title: "Phone",
-    lines: ["+91 90195 21992", "+91 99899 11154"],
+    lines: ["+91 90195 21992"],
     href: "tel:+919019521992",
     highlight: false,
   },
