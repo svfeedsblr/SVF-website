@@ -40,13 +40,13 @@ export default function LabSection() {
             </div>
           </div>
 
-          <div className="panel-light reveal-up rounded-[1.2rem] p-5" style={{ animationDelay: "120ms" }}>
+          <div className="relative reveal-up overflow-hidden rounded-[1.2rem] min-h-[260px] md:min-h-[360px]" style={{ animationDelay: "120ms" }}>
             <Image
               src="/lab.png"
               alt="SVF Soya manufacturing facility"
               fill
               sizes="(max-width: 768px) 90vw, 550px"
-              className="object-cover rounded-[1.2rem]"
+              className="object-cover"
             />
           </div>
         </div>

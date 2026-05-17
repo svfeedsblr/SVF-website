@@ -215,7 +215,7 @@ export default function Navbar() {
 
       {/* ── Mobile bottom dock ── */}
       <nav className="fixed inset-x-0 bottom-0 z-50 md:hidden">
-        <div className="mobile-dock mx-auto grid max-w-xl grid-cols-[repeat(4,minmax(0,1fr))_auto_2.5rem_4.5rem] rounded-t-[2rem] border border-[var(--line)] px-1 py-2 shadow-[0_-18px_44px_rgba(0,0,0,0.18)] backdrop-blur-xl">
+        <div className="mobile-dock mx-auto grid max-w-xl grid-cols-[repeat(4,minmax(0,1fr))_auto_2.5rem] rounded-t-[2rem] border border-[var(--line)] px-1 py-2 shadow-[0_-18px_44px_rgba(0,0,0,0.18)] backdrop-blur-xl">
           {mobilePrimary.map((item) => {
             const Icon = item.icon;
             return (

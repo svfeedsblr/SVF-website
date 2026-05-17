@@ -116,7 +116,7 @@ export default function CareersPage() {
           </div>
 
           <div className="panel-dark reveal-up relative min-h-[18rem] overflow-hidden rounded-[1.4rem] md:min-h-[30rem]">
-            <Image src="/hero-banner-soya-field.png" alt="Careers at SVF Soya" fill priority className="object-cover" />
+            <Image src="/Carreres.png" alt="Careers at SVF Soya" fill priority className="object-cover" />
             <div className="absolute inset-0 bg-gradient-to-r from-black/65 via-black/20 to-transparent" />
           </div>
         </div>

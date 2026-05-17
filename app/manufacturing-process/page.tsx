@@ -110,7 +110,7 @@ export default function ManufacturingProcessPage() {
 
           <div className="panel-dark reveal-up relative min-h-[17rem] overflow-hidden rounded-[1.4rem]">
             <Image
-              src="/manufacturing-process.png"
+              src="/process.png"
               alt="Soybean process visual"
               fill
               priority
