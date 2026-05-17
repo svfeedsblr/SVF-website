@@ -9,6 +9,7 @@ import gsap from "gsap";
 export default function GlobalRouteLoader() {
   const pathname = usePathname();
   const logoRef = useRef<HTMLDivElement>(null);
+  const wrapperRef = useRef<HTMLDivElement>(null);
   const fallbackTimerRef = useRef<number | null>(null);
 
   const [progress, setProgress] = useState(0);
@@ -111,10 +112,11 @@ export default function GlobalRouteLoader() {
 
     const tl = gsap.timeline({
       onComplete: () => {
-        if (mounted) {
-          setIsVisible(false);
-          document.body.style.overflow = "";
-        }
+        if (!mounted) return;
+        // immediately hide wrapper via DOM — no React render gap
+        if (wrapperRef.current) wrapperRef.current.style.display = "none";
+        setIsVisible(false);
+        document.body.style.overflow = "";
       },
     });
 
@@ -138,23 +140,20 @@ export default function GlobalRouteLoader() {
       ease: "sine.inOut",
     });
 
-    tl.to(logoRef.current, {
-      opacity: 1,
-      duration: 0.6,
-    });
+    // 1. Logo fades IN quickly
+    tl.to(logoRef.current, { opacity: 1, duration: 0.35, ease: "power2.out" });
 
+    // 2. Logo fades OUT — fully gone before smear begins
+    tl.to(logoRef.current, { opacity: 0, duration: 0.3, ease: "power2.in" });
+
+    // 3. Smear runs — logo is already invisible
     tl.to(
       {},
       {
-        duration: 3,
+        duration: 2.5,
         ease: "power3.inOut",
         onUpdate: function () {
-          const p = this.progress();
-          setProgress(p);
-
-          if (logoRef.current) {
-            logoRef.current.style.opacity = `${1 - p}`;
-          }
+          setProgress(this.progress());
         },
       }
     );
@@ -170,6 +169,7 @@ export default function GlobalRouteLoader() {
 
   return (
     <div
+      ref={wrapperRef}
       style={{
         position: "fixed",
         inset: 0,
