@@ -3,19 +3,20 @@ import Image from "next/image";
 import { CheckCircle2, ShieldCheck, Ship, Stamp, Warehouse, Waves } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Exports & International Supply — Soya Meal & Oil",
+  title: "Soya Meal Export from India — APEDA Certified | SVF Soya",
   description:
-    "SVF Soya exports high-protein Soya Meal and Crude Soybean Oil to the Middle East, South East Asia, and global markets. APEDA registered, phytosanitary certified. FOB, CIF, CNF Incoterms. HS 2304 & HS 1507.",
+    "SVF Soya exports non-GMO Soya Meal, Crude Soybean Oil and Full Fat Soya to UAE, Vietnam, Bangladesh, and Southeast Asia. APEDA registered, phytosanitary certified, bulk container supply.",
   keywords: [
     "soya meal exporter India",
-    "soybean oil exporter India",
-    "APEDA soya exporter Karnataka",
-    "non-GMO soya meal export",
-    "soya meal Middle East export",
-    "soya meal South East Asia",
-    "soya meal FOB CIF India",
-    "HS 2304 soya meal",
-    "HS 1507 soybean oil",
+    "soya meal exporter from India",
+    "soya meal exporter Karnataka",
+    "non GMO soya meal exporter India",
+    "soybean meal exporter India",
+    "crude soybean oil exporter India",
+    "APEDA soya exporter",
+    "soya meal export UAE",
+    "soya meal export Vietnam",
+    "soya meal export Bangladesh",
   ],
   alternates: { canonical: "https://www.svfsoya.com/exports" },
   openGraph: {

@@ -9,9 +9,21 @@ import TestimonialsSection from "./components/home/testimonials-section";
 import PartnerCtaSection from "./components/home/partner-cta-section";
 
 export const metadata: Metadata = {
-  title: "SVF Soya Pvt. Ltd. — Leading Manufacturer of Soybean Products",
+  title: "SVF Soya Pvt. Ltd. — Leading Soya Meal Manufacturer in Karnataka",
   description:
-    "SVF Soya Pvt. Ltd. has been a leading manufacturer, exporter and supplier of Soya Meal for Poultry and Crude Soyabean Oil since 2023. Chemical-free, non-GMO processing in Karnataka, India. 180 TPD capacity. FSSAI & APEDA certified.",
+    "SVF Soya Pvt. Ltd. manufactures chemical-free, non-GMO Soya Meal, Full Fat Soya, Crude Soybean Oil and Raw Soybeans in Karnataka, India. 180 TPD capacity. FSSAI & APEDA certified. Pan-India & export ready.",
+  keywords: [
+    "soya meal manufacturer India",
+    "soya meal manufacturer Karnataka",
+    "non GMO soya meal manufacturer India",
+    "crude soybean oil manufacturer Karnataka",
+    "soya meal exporter India",
+    "full fat soya supplier India",
+    "chemical-free soya processing",
+    "FSSAI certified soya manufacturer",
+    "APEDA registered soya exporter",
+    "SVF Soya Pvt Ltd",
+  ],
   alternates: { canonical: "https://www.svfsoya.com" },
   openGraph: {
     title: "SVF Soya — India's Purest Non-GMO Soya Manufacturer",

@@ -3,15 +3,14 @@ import Image from "next/image";
 import { ArrowRight, BriefcaseBusiness, Factory, FlaskConical, Mail, Paperclip, Truck, Users } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Career Opportunities — Join SVF Soya",
+  title: "Careers at SVF Soya — Join Our Soya Processing Team in Karnataka",
   description:
-    "Looking for a career in the agri-processing industry? SVF Soya Pvt. Ltd. is hiring in manufacturing, quality, logistics, and sales roles in Karnataka. Apply today.",
+    "Explore career opportunities at SVF Soya Pvt. Ltd. We are hiring for production, quality control, sales and logistics roles at our 180 TPD soya processing plant in Karnataka.",
   keywords: [
-    "SVF Soya careers",
-    "jobs in soya processing Karnataka",
-    "agri manufacturing jobs Bangalore",
-    "food manufacturing jobs Karnataka",
-    "quality analyst food industry Karnataka",
+    "careers SVF Soya",
+    "jobs soya processing plant Karnataka",
+    "quality control jobs soya manufacturer",
+    "food manufacturing jobs Bangalore",
   ],
   alternates: { canonical: "https://www.svfsoya.com/careers" },
   openGraph: {

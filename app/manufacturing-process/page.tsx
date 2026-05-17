@@ -3,16 +3,17 @@ import Image from "next/image";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Manufacturing Process — Chemical-Free Mechanical Soya Processing",
+  title: "Soya Manufacturing Process — Mechanical Cold-Press Extraction | SVF Soya",
   description:
-    "SVF Soya uses cold-press expeller technology for solvent-free, chemical-free soya processing. Learn about our 180 TPD facility, automated handling, in-house dispatch, and quality control in Karnataka.",
+    "SVF Soya's 180 TPD mechanical soya processing line: cleaning, grinding, extrusion, cold-press oil extraction, cooling, lab testing and packaging — no solvents, no chemicals.",
   keywords: [
-    "soya mechanical processing India",
-    "cold press soya expeller",
-    "solvent-free soya processing",
-    "soya processing plant Karnataka",
-    "chemical-free soybean extraction",
-    "soya processing technology India",
+    "soya manufacturing process India",
+    "mechanical soya extraction process",
+    "cold press soybean oil extraction",
+    "soya meal manufacturing Karnataka",
+    "chemical-free soya processing plant",
+    "soya expeller process India",
+    "soybean processing plant Karnataka",
   ],
   alternates: { canonical: "https://www.svfsoya.com/manufacturing-process" },
   openGraph: {

@@ -4,7 +4,7 @@ export default function TestimonialsSection() {
   const items = [...testimonials, ...testimonials];
   return (
     <section className="section-block section-light px-6 py-18 md:px-10 md:py-22">
-      <div className="section-inner mx-auto max-w-7xl">
+      {/* <div className="section-inner mx-auto max-w-7xl">
         <div className="reveal-up mb-8 text-center">
           <p className="text-xs font-semibold uppercase tracking-[0.24em] text-[var(--brand-green)]">
             Client Stories
@@ -37,7 +37,7 @@ export default function TestimonialsSection() {
             ))}
           </div>
         </div>
-      </div>
+      </div> */}
     </section>
   );
 }

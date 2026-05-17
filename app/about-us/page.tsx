@@ -16,15 +16,16 @@ import {
 } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "About Us — Our Story, Vision & Team",
+  title: "About SVF Soya — Non-GMO Soya Processing Company in Karnataka",
   description:
-    "Learn about SVF Soya Pvt. Ltd. — founded in 2023 in Karnataka, India. A modern soya processing company built on chemical-free extraction, non-GMO sourcing, and operational discipline. 180 TPD capacity, 80+ B2B supply partners.",
+    "Learn about SVF Soya Pvt. Ltd. — founded in 2023, 180 TPD mechanical soya processing plant in Karnataka. Meet our leadership team and our mission to deliver chemical-free, non-GMO soya products.",
   keywords: [
     "SVF Soya about us",
-    "soya manufacturer Karnataka history",
-    "non-GMO soya company India",
-    "chemical-free soya processing company",
-    "soya processing plant Karnataka 2023",
+    "soya manufacturer Karnataka story",
+    "non GMO soya company India",
+    "mechanical soya processing company",
+    "soya meal manufacturer founded 2023",
+    "soya processing plant Bangalore",
   ],
   alternates: { canonical: "https://www.svfsoya.com/about-us" },
   openGraph: {

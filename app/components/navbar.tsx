@@ -17,6 +17,8 @@ import {
   X,
   ChevronDown,
   ClipboardList,
+  Rss,
+  ShieldCheck,
 } from "lucide-react";
 import ThemeSwitch from "./theme-switch";
 
@@ -25,6 +27,8 @@ const allNavLinks = [
   { name: "About Us", key: "about", icon: Users },
   { name: "Products", key: "products", icon: BadgeCheck },
   { name: "Process", key: "process", icon: Factory },
+  { name: "Blog", key: "blog", icon: Rss },
+  { name: "Quality", key: "quality", icon: ShieldCheck },
   { name: "Exports", key: "exports", icon: PlaneTakeoff },
   { name: "Careers", key: "careers", icon: BriefcaseBusiness },
   { name: "Contact", key: "contact", icon: MessageCircleMore },
@@ -46,6 +50,8 @@ export default function Navbar() {
     if (key === "process") return "/manufacturing-process";
     if (key === "exports") return "/exports";
     if (key === "careers") return "/careers";
+    if (key === "blog") return "/blog";
+    if (key === "quality") return "/quality-policy";
     if (key === "contact") return "/contact";
     return "/";
   };

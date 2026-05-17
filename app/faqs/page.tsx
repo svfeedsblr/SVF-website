@@ -4,16 +4,16 @@ import Link from "next/link";
 import FaqAccordion from "../components/faq-accordion";
 
 export const metadata: Metadata = {
-  title: "FAQs — Soya Meal, Processing & Supply Questions",
+  title: "FAQs — Soya Meal, Oil and Processing | SVF Soya",
   description:
-    "Answers to the most common questions about SVF Soya's products, chemical-free mechanical processing, protein content, minimum order quantities, export procedures, and delivery terms.",
+    "Frequently asked questions about SVF Soya's products — Soya Meal, Crude Soybean Oil, Full Fat Soya. Quality parameters, ordering, delivery, export documentation and more.",
   keywords: [
-    "soya meal FAQ",
-    "soya processing questions India",
-    "non-GMO soya FAQ",
+    "soya meal FAQs India",
+    "soybean meal quality questions",
+    "how to buy soya meal India",
     "soya meal protein content",
-    "soya meal minimum order quantity",
-    "soya export documentation India",
+    "soya meal urease activity",
+    "crude soybean oil specifications",
   ],
   alternates: { canonical: "https://www.svfsoya.com/faqs" },
   openGraph: {

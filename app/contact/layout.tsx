@@ -1,15 +1,15 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Contact Us — Get a Quote",
+  title: "Contact SVF Soya — Get a Quote for Soya Meal and Soybean Oil",
   description:
-    "Contact SVF Soya Pvt. Ltd. for bulk soya meal quotes, sample requests, and export enquiries. Response within 24 hours. Call +91 90195 21992 or email support@svfsoya.com.",
+    "Contact SVF Soya Pvt. Ltd. for quotes on Soya Meal, Crude Soybean Oil, Full Fat Soya and Raw Soybeans. WhatsApp, email or fill our enquiry form. Response within 24 hours.",
   keywords: [
-    "contact SVF Soya",
-    "soya meal quote India",
-    "bulk soya meal enquiry",
-    "soybean oil supplier contact",
-    "soya exporter contact Karnataka",
+    "contact soya meal manufacturer India",
+    "get quote soya meal Karnataka",
+    "soya meal enquiry India",
+    "SVF Soya contact",
+    "buy soya meal India",
   ],
   alternates: { canonical: "https://www.svfsoya.com/contact" },
   openGraph: {
