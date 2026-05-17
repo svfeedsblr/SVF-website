@@ -211,6 +211,54 @@ export default function Navbar() {
             className="logo-on-dark h-auto w-28 object-contain"
           />
         </Link>
+
+        {/* Mobile Request a Quote */}
+        <div className="relative">
+          <button
+            type="button"
+            onClick={() => setIsQuoteOpen((v) => !v)}
+            className="gold-button inline-flex items-center gap-1.5 rounded-full px-4 py-2.5 text-xs font-semibold"
+          >
+            Request a Quote
+            <ChevronDown size={12} className={`transition-transform duration-200 ${isQuoteOpen ? "rotate-180" : ""}`} />
+          </button>
+
+          {isQuoteOpen && (
+            <>
+              <button
+                type="button"
+                className="fixed inset-0 z-[5]"
+                onClick={() => setIsQuoteOpen(false)}
+                aria-label="Close dropdown"
+              />
+              <div className="absolute right-0 top-full z-[10] mt-2 w-52 overflow-hidden rounded-2xl border border-[var(--line)] bg-[var(--card-light)] shadow-[0_12px_40px_rgba(0,0,0,0.18)] backdrop-blur-xl">
+                <a
+                  href="https://wa.me/919019521992?text=Hi%20SVF%20Soya%2C%20I%27d%20like%20to%20request%20a%20quote."
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  onClick={() => setIsQuoteOpen(false)}
+                  className="flex items-center gap-3 px-4 py-3.5 text-sm font-semibold text-[var(--light-foreground)] transition hover:bg-[var(--ring-soft)]"
+                >
+                  <span className="inline-flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-green-500/15 text-green-500">
+                    <MessageCircleMore size={14} />
+                  </span>
+                  Chat on WhatsApp
+                </a>
+                <div className="mx-4 h-px bg-[var(--line)]" />
+                <a
+                  href="/contact"
+                  onClick={() => setIsQuoteOpen(false)}
+                  className="flex items-center gap-3 px-4 py-3.5 text-sm font-semibold text-[var(--light-foreground)] transition hover:bg-[var(--ring-soft)]"
+                >
+                  <span className="inline-flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-[var(--brand-green)]/15 text-[var(--brand-green)]">
+                    <ClipboardList size={14} />
+                  </span>
+                  Fill Request Form
+                </a>
+              </div>
+            </>
+          )}
+        </div>
       </div>
 
       {/* ── Mobile bottom dock ── */}
