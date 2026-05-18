@@ -18,7 +18,7 @@ import {
 export const metadata: Metadata = {
   title: "About SVF Soya — Non-GMO Soya Processing Company in Karnataka",
   description:
-    "Learn about SVF Soya Pvt. Ltd. — founded in 2023, 180 TPD mechanical soya processing plant in Karnataka. Meet our leadership team and our mission to deliver chemical-free, non-GMO soya products.",
+    "Learn about SVF Soya Pvt. Ltd. — founded in 2021, 180 TPD mechanical soya processing plant in Karnataka. Meet our leadership team and our mission to deliver chemical-free, non-GMO soya products.",
   keywords: [
     "SVF Soya about us",
     "soya manufacturer Karnataka story",
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "About SVF Soya — Built on Purity, Driven by Quality",
     description:
-      "Founded in 2023 in Karnataka. 180 TPD mechanical processing, 20,000 sqm facility, 80+ B2B clients. Chemical-free, non-GMO soya products for domestic and export markets.",
+      "Founded in 2021 in Karnataka. 180 TPD mechanical processing, 22,000 sqm facility, 80+ B2B clients. Chemical-free, non-GMO soya products for domestic and export markets.",
     url: "https://www.svfsoya.com/about-us",
   },
 };
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
 const stats = [
   { value: "180 MT", label: "Daily Processing Capacity" },
   { value: "100%", label: "Chemical-Free Extraction" },
-  { value: "20,000 sqm", label: "Integrated Facility" },
+  { value: "22,000 sqm", label: "Integrated Facility" },
   { value: "80+", label: "B2B Supply Partners" },
 ];
 
@@ -179,7 +179,7 @@ export default function AboutUsPage() {
                 Welcome to SVF Soya Pvt. Ltd.
               </h3>
               <p className="mt-3">
-                SVF Soya Pvt. Ltd. has risen to the top of the soybean industry since its start in 2023. Each year in
+                SVF Soya Pvt. Ltd. has risen to the top of the soybean industry since its start in 2021. Each year in
                 business and every obstacle we overcame strengthened our company&apos;s culture—and its lasting effect.
                 These experiences have molded a set of key principles and practices that support our achievements and
                 the strong genuine relationships we create.
@@ -198,7 +198,7 @@ export default function AboutUsPage() {
               and non-GMO soybeans.
             </p>
             <p>
-              Our success comes from our team of over 100 skilled employees who love their work. They make sure
+              Our success comes from our team of over 50 skilled employees who love their work. They make sure
               every product meets the highest standards. We have a strong commitment to environmental
               sustainability and opt for non-GMO soybeans to back healthier farming methods and safeguard the
               environment.

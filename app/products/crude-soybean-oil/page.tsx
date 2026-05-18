@@ -67,9 +67,9 @@ export const metadata: Metadata = {
 };
 
 const quickStats = [
-  { label: "FFA", value: "2.5% Max" },
-  { label: "Moisture", value: "0.20%" },
-  { label: "Storage", value: "07 Days" },
+  { label: "FFA", value: "1.50% Max" },
+  { label: "Moisture & Impurities", value: "0.50% Max" },
+  { label: "Flash Point", value: ">120°C" },
   { label: "Solvent Use", value: "Zero" },
 ];
 
@@ -97,12 +97,12 @@ const flowCards = [
 ];
 
 const specRows = [
-  ["FFA", "2.50% Max"],
-  ["Moisture", "0.20% Max"],
-  ["Impurities", "0.15% Max"],
-  ["Peroxide Value", "3.2 Max"],
-  ["Color", "Golden"],
-  ["Specific Gravity", "0.91 - 0.93"],
+  ["Moisture Volatility & Insoluble Matter", "0.50% Max"],
+  ["Iodine Value", "120 – 140"],
+  ["Saponification Value", "189 – 195"],
+  ["Colour in 1/4″ Cell", "40.0 Unit Max"],
+  ["FFA", "1.50% Max"],
+  ["Flash Points", ">120°C"],
 ];
 
 const benefits = [

@@ -58,18 +58,17 @@ export const metadata: Metadata = {
 
 const quickStats = [
   { label: "Origin", value: "Karnataka" },
-  { label: "Moisture", value: "12% Max" },
-  { label: "Purity", value: "98%+" },
-  { label: "Sorting", value: "Lot Controlled" },
+  { label: "Moisture", value: "11% Max" },
+  { label: "Min Protein", value: "37%" },
+  { label: "Fat (Oil)", value: "18.5% Min" },
 ];
 
 const specRows = [
-  ["Moisture", "12.0% Max"],
-  ["Broken", "2.0% Max"],
-  ["Foreign Matter", "1.0% Max"],
-  ["Damage", "2.0% Max"],
-  ["Purity", "98.0% Min"],
-  ["Uniform Size", "Yes"],
+  ["Protein", "37% Min"],
+  ["Fat (Oil)", "18.5% Min"],
+  ["Moisture", "11% Max"],
+  ["Foreign Material", "2% Max"],
+  ["Damage", "3% Max"],
 ];
 
 const applicationCards = [
