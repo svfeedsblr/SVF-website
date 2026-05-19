@@ -26,66 +26,72 @@ export const metadata: Metadata = {
 
 const advantages = [
   {
-    title: "Plant Automation",
-    text: "Real-time process controls and checkpoint monitoring across the line.",
+    title: "Higher Energy Content",
+    text: "The oil left in the soybean meal after extraction gives it more energy content. This makes the meal better as a high-energy feed choice for farm animals.",
   },
   {
-    title: "Manual Verification",
-    text: "Critical quality points are validated by trained personnel.",
+    title: "Better Protein Quality",
+    text: "Heat treatment during extrusion has an impact on the soybean meal's protein digestibility and nutritional value. This makes it work better as a feed ingredient.",
   },
   {
-    title: "Trace Profile IDs",
-    text: "Each batch is tracked with clear records from intake to dispatch.",
+    title: "Pleasant Smell and Feel",
+    text: "Extrusion gives the soybean meal a nutty roasted smell and a rougher texture. This makes it less dusty than regular soybean meal. As a result, it's more appealing and easier to handle.",
   },
 ];
 
 const workflow = [
   {
     step: "01",
-    title: "Raw Soybean Intake & Inspection",
-    text: "Moisture, visual quality, and contaminant checks before lot approval.",
+    title: "Cleaning",
+    text: "We begin by cleaning the soybeans to get rid of stones, dirt, and other foreign materials. This step makes sure that pure top-quality beans continue to the next stage of the process.",
     image: "/cleaning.png",
   },
   {
     step: "02",
-    title: "Cleaning & Destoning",
-    text: "Foreign matter is removed to stabilize process quality.",
+    title: "Conditioning",
+    text: "We adjust the amount of water in the cleaned soybeans to prepare them for extrusion. This step makes sure they're in great condition for the next part of the process.",
     image: "/cleaning.png",
   },
   {
     step: "03",
-    title: "Conditioning & Cracking",
-    text: "Beans are conditioned for controlled pressing performance.",
-    image: "/Grinding.png",
+    title: "Extruder Feeding",
+    text: "The conditioned soybeans are fed into the extruder. A barrel with a screw that rotates within it makes up the extruder.",
+    image: "/Extruder Feeding.png",
   },
   {
     step: "04",
-    title: "Extrusion (FFS)",
-    text: "Thermal process for full-fat soy workflow consistency.",
+    title: "High-Pressure & High-Temperature Processing",
+    text: "Soybeans go through the extruder where they face high pressure and heat. This cooking turns the beans into swollen bits called collets getting them ready to extract oil.",
     image: "/Extruder Feeding.png",
   },
   {
     step: "05",
-    title: "Mechanical Expeller Pressing",
-    text: "Chemical-free extraction through controlled mechanical force.",
+    title: "Soya Oil Extraction",
+    text: "The heat and pressure in the extruder make the soybeans release their oil. The machine then squeezes out the oil leaving soya meal with about 6% fat left in it.",
     image: "/Soya Oil Extraction.png",
   },
   {
     step: "06",
-    title: "Cooling & Grinding",
-    text: "Stabilization and size control for finished feed ingredient handling.",
+    title: "Cooling & Drying",
+    text: "The extruded meal cools down to keep it stable. After cooling, the meal goes through a drying process to lower its moisture to a safe level, preventing spoilage and ensuring the product stays stable.",
     image: "/Cooling.png",
   },
   {
     step: "07",
-    title: "In-House Laboratory Testing",
-    text: "Protein, moisture, and contamination metrics validated before release.",
-    image: "/lab.png",
+    title: "Grinding",
+    text: "The meal is ground to a preferred size after it has been cooled and dried, ensuring that it meets the required specifications for subsequent use.",
+    image: "/Grinding.png",
   },
   {
     step: "08",
-    title: "Hygiene Packaging & Dispatch",
-    text: "Batch-coded packaging with dispatch verification and documentation.",
+    title: "Crude Oil Collection",
+    text: "The extracted oil goes into collection and might go through more processing to get rid of impurities. This leads to crude soybean oil, which then sits in tanks for later use or more refining.",
+    image: "/Soya Oil Extraction.png",
+  },
+  {
+    step: "09",
+    title: "Packaging",
+    text: "The end product is carefully packed for distribution and usage in animal nutrition or other purposes so that it satisfies all necessary quality criteria.",
     image: "/Packaging.png",
   },
 ];
@@ -100,11 +106,12 @@ export default function ManufacturingProcessPage() {
               Manufacturing Process
             </p>
             <h1 className="text-4xl font-semibold leading-tight text-[var(--foreground)] md:text-6xl">
-              Precision Orchestration of Chemical-Free Soya
+              Soybean Oil &amp; Meal Manufacturing Process
             </h1>
             <p className="mt-5 max-w-xl text-base leading-7 text-[var(--muted)] md:text-lg">
-              Zero-solvent processing backed by disciplined checkpoints, in-house testing, and
-              production-grade dispatch controls.
+              Our up-to-date manufacturing plant aims to produce premium soybean meal and crude
+              soybean oil. We strive for excellence in every phase making sure our products match
+              the best quality benchmarks.
             </p>
           </div>
 
@@ -125,19 +132,24 @@ export default function ManufacturingProcessPage() {
         <div className="section-inner mx-auto grid max-w-7xl gap-6 lg:grid-cols-[1.05fr_0.95fr]">
           <div className="panel-dark reveal-up rounded-[1.3rem] p-6 md:p-7">
             <h2 className="text-2xl font-semibold text-[var(--foreground)] md:text-4xl">
-              From Bean to Certified Product
+              Soybean Oil &amp; Meal Manufacturing Process
             </h2>
             <p className="mt-4 text-sm leading-7 text-[var(--muted)] md:text-base">
-              Our process begins with strict raw material screening and follows a controlled
-              sequence of cleaning, conditioning, mechanical extraction, and laboratory release.
-              This integrated model minimizes risk, improves consistency, and supports high-trust
-              supply for feed manufacturers and traders.
+              Our up-to-date manufacturing plant aims to produce premium soybean meal and crude
+              soybean oil. We strive for excellence in every phase making sure our products match
+              the best quality benchmarks.
+            </p>
+            <p className="mt-3 text-sm leading-7 text-[var(--muted)] md:text-base">
+              Making soybean oil and meal involves essential steps such as Cleaning, Cracking,
+              Extrusion, Oil Extraction, Cooling and Drying, Grinding, and Packaging. This
+              streamlined process results in high-grade soybean meal and crude oil perfect to use
+              in animal feed, dietary supplements, and human food.
             </p>
           </div>
 
           <div className="panel-dark reveal-up rounded-[1.3rem] p-6 md:p-7" style={{ animationDelay: "120ms" }}>
             <p className="text-xs font-semibold uppercase tracking-[0.2em] text-[var(--foreground)]">
-              System Advantages
+              Benefits of the Extruder Process
             </p>
             <div className="mt-4 space-y-3">
               {advantages.map((item, index) => (
@@ -156,7 +168,7 @@ export default function ManufacturingProcessPage() {
       <section className="section-block section-dark px-6 py-16 md:px-10 md:py-20">
         <div className="section-inner mx-auto max-w-7xl">
           <h2 className="reveal-up text-center text-3xl font-semibold uppercase tracking-[0.05em] text-[var(--foreground)] md:text-5xl">
-            Precision Workflow
+            Soybean Oil &amp; Meal Manufacturing Process Steps
           </h2>
           <div className="relative mx-auto mt-10 max-w-6xl">
             <div className="absolute bottom-0 left-1/2 top-0 w-px -translate-x-1/2 bg-[var(--line)]" />

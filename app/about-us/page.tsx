@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     "soya manufacturer Karnataka story",
     "non GMO soya company India",
     "mechanical soya processing company",
-    "soya meal manufacturer founded 2023",
+    "soya meal manufacturer founded 2021",
     "soya processing plant Bangalore",
   ],
   alternates: { canonical: "https://www.svfsoya.com/about-us" },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
 const stats = [
   { value: "180 MT", label: "Daily Processing Capacity" },
   { value: "100%", label: "Chemical-Free Extraction" },
-  { value: "22,000 sqm", label: "Integrated Facility" },
+  { value: "20,000 sqm", label: "Integrated Facility" },
   { value: "80+", label: "B2B Supply Partners" },
 ];
 
@@ -124,7 +124,7 @@ export default function AboutUsPage() {
               <span className="block text-[var(--brand-green)]">Driven by Quality.</span>
             </h1>
             <p className="mt-5 max-w-2xl text-sm leading-7 text-[var(--muted)] md:text-base">
-              From a 2023 vision to a modern, chemical-free soya ecosystem engineered for scale and trust.
+              From a 2021 vision to a modern, chemical-free soya ecosystem engineered for scale and trust.
             </p>
             <div className="mt-7 flex flex-wrap gap-3">
               <Link href="/products" className="gold-button rounded-full px-6 py-3 text-sm font-semibold">
@@ -179,10 +179,10 @@ export default function AboutUsPage() {
                 Welcome to SVF Soya Pvt. Ltd.
               </h3>
               <p className="mt-3">
-                SVF Soya Pvt. Ltd. has risen to the top of the soybean industry since its start in 2021. Each year in
-                business and every obstacle we overcame strengthened our company&apos;s culture—and its lasting effect.
-                These experiences have molded a set of key principles and practices that support our achievements and
-                the strong genuine relationships we create.
+                SVF Soya Pvt. Ltd. part of the Sri Venkateshwara Feeds And Farms Group, has risen to the top of the
+                soybean industry since its start in 2021. Each year in business and every obstacle we overcame
+                strengthened our company&apos;s culture—and its lasting effect. These experiences have molded a set of
+                key principles and practices that support our achievements and the strong genuine relationships we create.
               </p>
             </div>
 

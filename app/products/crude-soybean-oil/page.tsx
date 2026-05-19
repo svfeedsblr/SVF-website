@@ -68,8 +68,8 @@ export const metadata: Metadata = {
 
 const quickStats = [
   { label: "FFA", value: "1.50% Max" },
-  { label: "Moisture & Impurities", value: "0.50% Max" },
   { label: "Flash Point", value: ">120°C" },
+  { label: "Iodine Value", value: "120 – 140" },
   { label: "Solvent Use", value: "Zero" },
 ];
 
@@ -100,7 +100,7 @@ const specRows = [
   ["Moisture Volatility & Insoluble Matter", "0.50% Max"],
   ["Iodine Value", "120 – 140"],
   ["Saponification Value", "189 – 195"],
-  ["Colour in 1/4″ Cell", "40.0 Unit Max"],
+  ["Colour in 1/4\" Cell", "40.0 Unit Max"],
   ["FFA", "1.50% Max"],
   ["Flash Points", ">120°C"],
 ];

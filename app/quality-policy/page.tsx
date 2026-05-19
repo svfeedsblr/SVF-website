@@ -37,7 +37,7 @@ const commitments = [
   {
     icon: FlaskConical,
     title: "In-House Laboratory Testing",
-    body: "Our on-site laboratory tests every production batch for crude protein (target ≥48%), moisture (≤9.8%), urease activity (0.05–0.20 pH rise), and crude fibre. No batch is released for dispatch until it clears all parameter thresholds.",
+    body: "Our on-site laboratory tests every production batch for crude protein (target ≥47%), moisture (≤6%), urease activity (≤3%), fat (≥6%), and crude fibre (≤6%). No batch is released for dispatch until it clears all parameter thresholds.",
   },
   {
     icon: ShieldCheck,
@@ -72,17 +72,24 @@ const commitments = [
 ];
 
 const parameters = [
-  { product: "Soya Meal (DOC)", param: "Crude Protein", value: "≥ 48%", note: "Dry basis" },
-  { product: "Soya Meal (DOC)", param: "Moisture", value: "≤ 9.8%", note: "" },
-  { product: "Soya Meal (DOC)", param: "Urease Activity", value: "0.05 – 0.20 pH rise", note: "AOCS method" },
-  { product: "Soya Meal (DOC)", param: "Crude Fibre", value: "≤ 7%", note: "" },
-  { product: "Soya Meal (DOC)", param: "Crude Fat", value: "1 – 2%", note: "" },
-  { product: "Crude Soybean Oil", param: "Free Fatty Acid (FFA)", value: "≤ 2%", note: "As oleic acid" },
-  { product: "Crude Soybean Oil", param: "Moisture & Impurity", value: "≤ 0.5%", note: "" },
-  { product: "Crude Soybean Oil", param: "Colour (Lovibond)", value: "Max 40R / 4Y", note: "" },
-  { product: "Full Fat Soya Meal", param: "Crude Protein", value: "≥ 38%", note: "" },
-  { product: "Full Fat Soya Meal", param: "Crude Fat", value: "18 – 22%", note: "Naturally retained" },
-  { product: "Full Fat Soya Meal", param: "Moisture", value: "≤ 10%", note: "" },
+  { product: "Soya Meal (DOC)", param: "Protein", value: "47% Min", note: "" },
+  { product: "Soya Meal (DOC)", param: "Fat", value: "6% Min", note: "" },
+  { product: "Soya Meal (DOC)", param: "Moisture", value: "6% Max", note: "" },
+  { product: "Soya Meal (DOC)", param: "Fibre", value: "6% Max", note: "" },
+  { product: "Soya Meal (DOC)", param: "Sand & Silica", value: "1% Max", note: "" },
+  { product: "Soya Meal (DOC)", param: "Total Ash", value: "0% Max", note: "" },
+  { product: "Soya Meal (DOC)", param: "Urease Activity", value: "3% Max", note: "" },
+  { product: "Crude Soybean Oil", param: "Moisture Volatility & Insoluble Matter", value: "0.50% Max", note: "" },
+  { product: "Crude Soybean Oil", param: "Iodine Value", value: "120 – 140", note: "" },
+  { product: "Crude Soybean Oil", param: "Saponification Value", value: "189 – 195", note: "" },
+  { product: "Crude Soybean Oil", param: "Colour in 1/4\" Cell", value: "40.0 Unit Max", note: "" },
+  { product: "Crude Soybean Oil", param: "FFA", value: "1.50% Max", note: "" },
+  { product: "Crude Soybean Oil", param: "Flash Points", value: ">120°C", note: "" },
+  { product: "Raw Soybeans", param: "Protein", value: "37% Min", note: "" },
+  { product: "Raw Soybeans", param: "Fat (Oil)", value: "18.5% Min", note: "" },
+  { product: "Raw Soybeans", param: "Moisture", value: "11% Max", note: "" },
+  { product: "Raw Soybeans", param: "Foreign Material", value: "2% Max", note: "" },
+  { product: "Raw Soybeans", param: "Damage", value: "3% Max", note: "" },
 ];
 
 export default function QualityPolicyPage() {

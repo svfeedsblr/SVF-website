@@ -60,7 +60,7 @@ const quickStats = [
   { label: "Origin", value: "Karnataka" },
   { label: "Moisture", value: "11% Max" },
   { label: "Min Protein", value: "37%" },
-  { label: "Fat (Oil)", value: "18.5% Min" },
+  { label: "Min Fat (Oil)", value: "18.5%" },
 ];
 
 const specRows = [

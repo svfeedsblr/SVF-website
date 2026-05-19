@@ -15,9 +15,9 @@ import {
 } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Soya Meal — 47%+ Protein, Non-GMO, Chemical-Free",
+  title: "Soya Meal — 48%+ Protein, Non-GMO, Chemical-Free",
   description:
-    "SVF Soya's mechanically extracted Soya Meal with 47%+ crude protein, low moisture (≤6%), and zero solvent residue. Ideal for poultry, aquaculture, and cattle feed. Available in bulk. Pan-India delivery & export.",
+    "SVF Soya's mechanically extracted Soya Meal with 48%+ crude protein, low moisture (≤9.8%), and zero solvent residue. Ideal for poultry, aquaculture, and cattle feed. Available in bulk. Pan-India delivery & export.",
   keywords: [
     "soya meal manufacturer India",
     "soya meal manufacturer Karnataka",
@@ -65,7 +65,7 @@ export const metadata: Metadata = {
     "non GMO soya meal for poultry feed",
     "non GMO soya meal for broiler",
     "non GMO soybean meal for animal feed",
-    "soya meal 47% protein",
+    "soya meal 48% protein",
     "high protein soya meal Karnataka",
     "chemical-free soya meal",
     "mechanical soya extraction",
@@ -74,9 +74,9 @@ export const metadata: Metadata = {
   ],
   alternates: { canonical: "https://www.svfsoya.com/products/soya-meal" },
   openGraph: {
-    title: "Soya Meal — 47%+ Protein | SVF Soya Pvt. Ltd.",
+    title: "Soya Meal — 48%+ Protein | SVF Soya Pvt. Ltd.",
     description:
-      "Mechanically extracted, chemical-free Soya Meal with 47%+ protein. For poultry, aqua, and cattle feed. Bulk supply, Pan-India & export. Request a free sample.",
+      "Mechanically extracted, chemical-free Soya Meal with 48%+ protein. For poultry, aqua, and cattle feed. Bulk supply, Pan-India & export. Request a free sample.",
     url: "https://www.svfsoya.com/products/soya-meal",
     images: [{ url: "/soya-meal.png", width: 1200, height: 800, alt: "SVF Soya Meal" }],
   },
@@ -339,8 +339,8 @@ export default function SoyaMealPage() {
                   <p className="mt-1 text-xs text-[var(--muted)]">Min Protein</p>
                 </div>
                 <div className="rounded-2xl border border-[var(--line)] bg-white/5 p-4">
-                  <p className="text-2xl font-semibold text-[var(--brand-green)]">6% Min</p>
-                  <p className="mt-1 text-xs text-[var(--muted)]">Fat Content</p>
+                  <p className="text-2xl font-semibold text-[var(--brand-green)]">0.12</p>
+                  <p className="mt-1 text-xs text-[var(--muted)]">Urease</p>
                 </div>
               </div>
             </div>
