@@ -35,7 +35,7 @@ const faqs = [
   {
     question: "What is the minimum protein percentage in SVF Soya Meal?",
     answer:
-      "Our standard soya meal maintains a precision threshold of minimum 48% protein content, optimized for high-performance feed applications.",
+      "Our standard soya meal maintains a precision threshold of minimum 47% protein content, optimized for high-performance feed applications.",
   },
   {
     question: "Do you provide Non-GMO certification?",

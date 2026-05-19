@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "SVF Soya Exports — Soya Meal & Oil to Middle East, SEA & Beyond",
     description:
-      "APEDA registered exporter. Phytosanitary certified. FOB, CIF, CNF. 20FT FCL: 18–20 MT. High-protein soya meal (48%+) and crude soybean oil for global markets.",
+      "APEDA registered exporter. Phytosanitary certified. FOB, CIF, CNF. 20FT FCL: 18–20 MT. High-protein soya meal (47%+) and crude soybean oil for global markets.",
     url: "https://www.svfsoya.com/exports",
   },
 };

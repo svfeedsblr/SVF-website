@@ -15,7 +15,7 @@ export const comparisonRows = [
 export const productCards = [
   {
     title: "High-GMV Soya Meal",
-    spec: "Protein 48%+",
+    spec: "Protein 47%+",
     image: "/soya-meal.png",
     text: "For poultry, aqua & cattle feed formulations. The backbone of high-performance, clean-label feed.",
   },
@@ -55,17 +55,17 @@ export const labChecks = [
 ];
 
 export const dispatchTable = [
-  { label: "Protein (%)", value: "48.2" },
-  { label: "Moisture (%)", value: "9.8" },
-  { label: "Fat (%)", value: "1.42" },
-  { label: "Fiber (%)", value: "6.15" },
-  { label: "Urease", value: "0.12" },
+  { label: "Protein (%)", value: "47% Min" },
+  { label: "Moisture (%)", value: "6% Max" },
+  { label: "Fat (%)", value: "6% Min" },
+  { label: "Fiber (%)", value: "6% Max" },
+  { label: "Urease Activity", value: "3% Max" },
 ];
 
 export const testimonials = [
   {
     quote:
-      "Consistent 48%+ protein content batch after batch. We switched our entire soya meal sourcing to SVF.",
+      "Consistent 47%+ protein content batch after batch. We switched our entire soya meal sourcing to SVF.",
     author: "R. Venkatesh",
     org: "Srikrishna Poultry Farms, Hosur",
   },

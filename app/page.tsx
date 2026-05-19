@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "SVF Soya — India's Purest Non-GMO Soya Manufacturer",
     description:
-      "Leading manufacturer of Soya Meal (48%+ protein), Full Fat Soya, Crude Soybean Oil & Raw Soybeans. 180 TPD, Karnataka. Chemical-free, FSSAI & APEDA certified.",
+      "Leading manufacturer of Soya Meal (47%+ protein), Full Fat Soya, Crude Soybean Oil & Raw Soybeans. 180 TPD, Karnataka. Chemical-free, FSSAI & APEDA certified.",
     url: "https://www.svfsoya.com",
   },
 };
@@ -47,7 +47,7 @@ const productsSchema = {
       item: {
         "@type": "Product",
         name: "Soya Meal",
-        description: "High-protein soya meal with 48%+ crude protein. Chemical-free mechanical extraction. For poultry, aquaculture, and cattle feed.",
+        description: "High-protein soya meal with 47%+ crude protein. Chemical-free mechanical extraction. For poultry, aquaculture, and cattle feed.",
         url: "https://www.svfsoya.com/products/soya-meal",
         image: "https://www.svfsoya.com/soya-meal.png",
         brand: { "@type": "Brand", name: "SVF Soya" },

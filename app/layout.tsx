@@ -265,7 +265,7 @@ export const metadata: Metadata = {
     // ── Brand / General ──
     "SVF Soya","SVF Soya Pvt Ltd","chemical-free soya meal","mechanical soya processing","FSSAI certified soya manufacturer",
     "APEDA registered soya exporter","soya processing plant Karnataka","Bangalore soya manufacturer",
-    "non-GMO soya processing India","48% protein soya meal","full fat soya meal","full fat soya supplier India",
+    "non-GMO soya processing India","47% protein soya meal","full fat soya meal","full fat soya supplier India",
     "full fat soya manufacturer India","full fat soya exporter India","quality policy soya meal",
     "soya meal lab tested India","urease activity soya meal",
   ],
