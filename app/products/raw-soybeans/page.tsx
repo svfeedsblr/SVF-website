@@ -149,7 +149,7 @@ export default function RawSoybeansPage() {
 
                   <div className="mt-8 flex flex-wrap gap-3">
                     <Link
-                      href="/#cta"
+                      href="/contact"
                       className="gold-button inline-flex rounded-full px-5 py-3 text-sm font-semibold"
                     >
                       Request Pricing & Availability
