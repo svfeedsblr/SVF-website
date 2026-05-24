@@ -204,16 +204,16 @@ export default function RawSoybeansPage() {
               <div className="panel-dark reveal-up rounded-[1.5rem] p-5 md:p-6" style={{ animationDelay: "180ms" }}>
                 <div className="space-y-3">
                   <Link
-                    href="/#cta"
+                    href="/contact"
                     className="gold-button flex items-center justify-center rounded-full px-5 py-3 text-sm font-semibold"
                   >
                     Request Quote for This Product
                   </Link>
                   <Link
-                    href="/#quality"
+                    href="/contact"
                     className="outline-button flex items-center justify-center rounded-full px-5 py-3 text-sm font-semibold"
                   >
-                    Download Technical Sheet
+                    Request Technical Sheet
                   </Link>
                 </div>
               </div>
@@ -347,7 +347,7 @@ export default function RawSoybeansPage() {
             </p>
             <div className="mt-7 flex flex-wrap items-center justify-center gap-3">
               <Link
-                href="/#cta"
+                href="/contact"
                 className="gold-button inline-flex items-center gap-2 rounded-full px-6 py-3 text-sm font-semibold"
               >
                 Request Quote Today

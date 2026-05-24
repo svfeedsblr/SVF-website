@@ -20,7 +20,7 @@ const products = [
       ["Fat", "6% Min"],
       ["Moisture", "6% Max"],
       ["Fibre", "6% Max"],
-      ["Urease Activity", "3% Max"],
+      ["Urease Activity", "0.3% Max"],
     ],
   },
   {
@@ -111,7 +111,7 @@ export default function ProductsPage() {
       </p>
 
       <div className="mt-8 flex flex-wrap gap-4">
-        <Link href="#contact" className="gold-button rounded-full px-7 py-3 text-sm font-semibold">
+        <Link href="/contact" className="gold-button rounded-full px-7 py-3 text-sm font-semibold">
           Request Price Sheet
         </Link>
 
@@ -189,7 +189,7 @@ export default function ProductsPage() {
               </div>
 
               <div className="mt-5 flex gap-3">
-                <Link href="#contact" className="gold-button rounded-full px-5 py-2.5 text-sm font-semibold">
+                <Link href="/contact" className="gold-button rounded-full px-5 py-2.5 text-sm font-semibold">
                   Request Quote
                 </Link>
                 <Link

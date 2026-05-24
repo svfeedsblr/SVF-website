@@ -78,7 +78,7 @@ const parameters = [
   { product: "Soya Meal (DOC)", param: "Fibre", value: "6% Max", note: "" },
   { product: "Soya Meal (DOC)", param: "Sand & Silica", value: "1% Max", note: "" },
   { product: "Soya Meal (DOC)", param: "Total Ash", value: "0% Max", note: "" },
-  { product: "Soya Meal (DOC)", param: "Urease Activity", value: "3% Max", note: "" },
+  { product: "Soya Meal (DOC)", param: "Urease Activity", value: "0.3% Max", note: "" },
   { product: "Crude Soybean Oil", param: "Moisture Volatility & Insoluble Matter", value: "0.50% Max", note: "" },
   { product: "Crude Soybean Oil", param: "Iodine Value", value: "120 – 140", note: "" },
   { product: "Crude Soybean Oil", param: "Saponification Value", value: "189 – 195", note: "" },

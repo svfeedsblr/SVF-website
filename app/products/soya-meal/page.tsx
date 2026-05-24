@@ -104,7 +104,7 @@ const specRows = [
   ["Fibre", "6% Max"],
   ["Sand & Silica", "1% Max"],
   ["Total Ash", "0% Max"],
-  ["Urease Activity", "3% Max"],
+  ["Urease Activity", "0.3% Max"],
 ];
 
 const flow = [
@@ -251,16 +251,16 @@ export default function SoyaMealPage() {
               <div className="panel-dark reveal-up rounded-[1.5rem] p-5 md:p-6" style={{ animationDelay: "180ms" }}>
                 <div className="space-y-3">
                   <Link
-                    href="/#cta"
+                    href="/contact"
                     className="gold-button flex items-center justify-center rounded-full px-5 py-3 text-sm font-semibold"
                   >
                     Request Quote for This Product
                   </Link>
                   <Link
-                    href="/#quality"
+                    href="/contact"
                     className="outline-button flex items-center justify-center rounded-full px-5 py-3 text-sm font-semibold"
                   >
-                    Download Technical Sheet
+                    Request Technical Sheet
                   </Link>
                   <Link
                     href="/manufacturing-process"
@@ -442,7 +442,7 @@ export default function SoyaMealPage() {
             </p>
             <div className="mt-7 flex flex-wrap items-center justify-center gap-3">
               <Link
-                href="/#cta"
+                href="/contact"
                 className="gold-button inline-flex items-center gap-2 rounded-full px-6 py-3 text-sm font-semibold"
               >
                 Request Quote
