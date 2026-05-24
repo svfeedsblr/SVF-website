@@ -185,7 +185,7 @@ export default function FullFatSoyaPage() {
                     </p>
                   </div>
                   <div className="grid grid-cols-3 gap-2">
-                    {["/hero-b.png", "/hero.png", "/products-hero-banner.png"].map((src) => (
+                    {["/hero-b.png", "/products-hero-banner.png"].map((src) => (
                       <div
                         key={src}
                         className="relative min-h-[4.6rem] overflow-hidden rounded-[0.95rem] border border-[var(--line)] bg-white/5"

@@ -85,7 +85,6 @@ export const metadata: Metadata = {
 const gallery = [
   { src: "/soya-meal.png", alt: "Soya meal product pile" },
   { src: "/hero-b.png", alt: "Mechanical extraction visual" },
-  { src: "/hero.png", alt: "Soybean raw material visual" },
   { src: "/products-hero-banner.png", alt: "Plant document visual" },
 ];
 

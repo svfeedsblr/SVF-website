@@ -276,13 +276,13 @@ export default function CrudeSoybeanOilPage() {
                 className={`panel-light reveal-up rounded-[1.2rem] p-5 ${item.step === "04" ? "bg-[linear-gradient(135deg,var(--field-green),var(--brand-green))] text-white" : ""}`}
                 style={{ animationDelay: `${index * 80}ms` }}
               >
-                <p className={`text-xs font-semibold uppercase tracking-[0.18em] ${item.step === "04" ? "text-white/80" : "text-[var(--brand-green)]"}`}>
+                <p className={`text-xs font-semibold uppercase tracking-[0.18em] ${item.step === "04" ? "text-[var(--brand-green)]" : "text-[var(--brand-green)]"}`}>
                   {item.step}
                 </p>
-                <p className={`mt-3 text-sm font-semibold ${item.step === "04" ? "text-white" : "text-[var(--light-foreground)]"}`}>
+                <p className={`mt-3 text-sm font-semibold ${item.step === "04" ? "text-[var(--light-foreground)]" : "text-[var(--light-foreground)]"}`}>
                   {item.title}
                 </p>
-                <p className={`mt-2 text-xs leading-6 ${item.step === "04" ? "text-white/80" : "text-[var(--light-muted)]"}`}>
+                <p className={`mt-2 text-xs leading-6 ${item.step === "04" ? "text-[var(--light-muted)]" : "text-[var(--light-muted)]"}`}>
                   {item.text}
                 </p>
               </div>
