@@ -65,12 +65,6 @@ export const dispatchTable = [
 export const testimonials = [
   {
     quote:
-      "Consistent 47%+ protein content batch after batch. We switched our entire soya meal sourcing to SVF.",
-    author: "R. Venkatesh",
-    org: "Srikrishna Poultry Farms, Hosur",
-  },
-  {
-    quote:
       "Dispatch discipline is excellent and quality variation has dropped sharply since partnering with SVF.",
     author: "Mahesh Patel",
     org: "Pragati Feeds, Indore",

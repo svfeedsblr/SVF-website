@@ -179,7 +179,7 @@ export default function AboutUsPage() {
                 Welcome to SVF Soya Pvt. Ltd.
               </h3>
               <p className="mt-3">
-                SVF Soya Pvt. Ltd. part of the Sri Venkateshwara Feeds And Farms Group, has risen to the top of the
+                SVF Soya Pvt. Ltd. has risen to the top of the
                 soybean industry since its start in 2021. Each year in business and every obstacle we overcame
                 strengthened our company&apos;s culture—and its lasting effect. These experiences have molded a set of
                 key principles and practices that support our achievements and the strong genuine relationships we create.
